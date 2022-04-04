@@ -16,5 +16,5 @@ class Atm:
 a = Atm(12345678910, 9876, "January 1st, 2025")
 
 print(a.cardNumber)
-print(a.pin)
-print(a.expirationDate)
+print(a.Pin())
+print(a.expiration_date())
